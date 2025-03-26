@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
     <title>CV - Tristan O'Hanlon</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body id="myPage" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="60">
@@ -17,7 +18,7 @@
         </button>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#about">ABOUT ME</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
                 <li class="nav-item"><a class="nav-link" href="#experience">EXPERIENCE</a></li>
                 <li class="nav-item"><a class="nav-link" href="#testimonials">TESTIMONIALS</a></li>
                 <li class="nav-item"><a class="nav-link" href="#involvement">INVOLVEMENT</a></li>
@@ -31,155 +32,222 @@
 
 <div class="jumbotron text-center">
     <h1>Tristan O'Hanlon</h1>
-    <img src="images/tristan.png" class="rounded-circle" alt="tristan" width="189" height="236">
-    <p>Teacher of Physics | Science | Computer Science | University Lecturer</p>
+    <img src="images/tristan.png" class="rounded-circle" alt="Tristan" width="189" height="236">
+    <p>Teacher of Physics | Educational Leader</p>
 </div>
 
 <!-- About Section -->
-<div id="about" class="container-fluid">
-    <div class="row slideanim">
-        <div class="col-md-8">
-            <h2>About Me</h2><br>
-            <p>Hi, I’m Tristan O’Hanlon.</p>
-            <p>I am a registered senior Physics teacher and Professional Teaching Fellow at the University of Auckland with over 15 years of experience in education. My career spans teaching NCEA and Cambridge International Examinations (CIE) Physics in New Zealand schools, coordinating high-achieving departments, and lecturing undergraduate physics and teacher education at university level.</p>
-            <p>My students have achieved exceptional results, including NZQA Scholarships and placements at top universities like Oxford, Stanford, and Monash. I’ve been honored with the Rutherford Trophy (2024) from the NZ Institute of Physics and the Faculty of Science Dean’s Award for Sustained Teaching Excellence (2022).</p>
-            <p>I am passionate about making physics accessible and engaging, using hands-on demonstrations and real-world context. I also contribute to the field through leadership in initiatives like the NZ Young Physicists Tournament, CERN Masterclass, and the Auckland Programme for Space Systems.</p>
-            <br><a href="#contact" class="btn btn-primary btn-lg">Get in Touch</a>
+<div id="about" class="container-fluid section">
+    <div class="row align-items-start">
+        <div class="col-md-2 col-12">
+            <div class="profile-wrapper">
+                <img src="images/photo.jpeg" class="profile-pic rounded" alt="Profile Picture">
+            </div>
         </div>
-        <div class="col-md-4">
-            <div class="thumbnail">
-                <img src="images/photo.jpeg" class="rounded" style="width: 50%" alt="photo">
+        <div class="col-md-6 col-12">
+            <h2>About Me</h2>
+            <p>I’m Tristan O’Hanlon, a dedicated educator with over 15 years of experience in physics education, spanning secondary schools to university lecturing. As a registered teacher (Registration Number: 310158) and Professional Teaching Fellow at the University of Auckland, I’ve built a career on fostering student success, leading innovative programmes, and advancing physics education.</p>
+            <p>My teaching philosophy prioritises building relationships, reflective practice, high expectations, hands-on learning, and contextual demonstrations. This approach has yielded exceptional student outcomes—my students have earned numerous NZQA Scholarships, and many have progressed to prestigious universities such as Oxford, Stanford, and Monash. At the University of Auckland, I’ve lectured undergraduate physics, trained future teachers, and coordinated groundbreaking projects like the Auckland Programme for Space Systems (APSS), which launched New Zealand’s first student-built satellite, APSS-1, in 2020.</p>
+            <p>My contributions have been recognised with the Rutherford Trophy (2024) from the NZ Institute of Physics and the Faculty of Science Dean’s Award for Sustained Teaching Excellence (2022). I’m deeply involved in the physics community, organsing annual professional development opportunities and coordinating the Auckland CERN Masterclass.</p>
+            <a href="#contact" class="btn btn-primary btn-lg mt-3">Get in Touch</a>
+        </div>
+        <div class="col-md-4 col-12">
+            <div class="card shadow-sm p-3">
+                <h4>Highlights</h4>
+                <ul class="list-unstyled">
+                    <li><i class="bi bi-award"></i> Rutherford Trophy, NZ Institute of Physics (2024)</li>
+                    <li><i class="bi bi-award"></i> Dean’s Award for Teaching Excellence (2022)</li>
+                    <li><i class="bi bi-rocket"></i> Coordinated NZ’s first student satellite launch (2020)</li>
+                    <li><i class="bi bi-globe"></i> Led physics trips to CERN, NASA, and JAXA</li>
+                </ul>
             </div>
         </div>
     </div>
 </div>
 
 <!-- Experience Section -->
-<div id="experience" class="container-fluid bg-grey slideanim">
-    <h2 class="text-center">Experience</h2>
-    <div class="row">
-        <div class="col-md-2" style="padding-right:20px; border-right: 1px solid #ccc;">
-            <strong>2018 - Present<br><i>University of Auckland</i><br>Professional Teaching Fellow</strong>
+<div id="experience" class="container-fluid bg-grey section">
+    <h2 class="text-center">Professional Experience</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-icon"><i class="bi bi-briefcase"></i></div>
+            <div class="timeline-content">
+                <h4>Professional Teaching Fellow, University of Auckland</h4>
+                <p><strong>2018 – Present</strong> | Department of Physics & Faculty of Education</p>
+                <ul>
+                    <li>Lectured undergraduate physics courses and supervised student projects, earning consistent approval ratings above 90% in evaluations.</li>
+                    <li>Trained secondary science and physics teachers, conducting practicum observations and mentoring new lecturers.</li>
+                    <li>Received the Rutherford Trophy (2024) and Faculty of Science Dean’s Award (2022) for teaching excellence.</li>
+                    <li>Coordinated the APSS, culminating in the successful launch of APSS-1 with Rocketlab (2020).</li>
+                    <li>Revamped undergraduate physics laboratories and teaching assistant training after research visits to Cornell, Toronto, and Columbia (2019).</li>
+                    <li>Led the Tuākana programme, supporting Māori and Pacific students, and organised annual Physics Teachers Day since 2018.</li>
+                </ul>
+            </div>
         </div>
-        <div class="col-md-8" style="padding-left:20px;">
-            <ul>
-                <li>Lectured undergraduate physics and coordinated courses, including student project supervision.</li>
-                <li>Trained secondary science and physics teacher trainees, with practicum observations.</li>
-                <li>Awarded Rutherford Trophy (2024) and Faculty of Science Dean’s Award (2022).</li>
-                <li>Coordinated the Auckland Programme for Space Systems (APSS), launching NZ’s first student satellite (APSS-1) in 2020.</li>
-                <li>Mentored staff, facilitated outreach for Māori and Pacific students, and led physics lab reforms after visits to Cornell, Toronto, and Columbia universities.</li>
-            </ul>
+        <div class="timeline-item">
+            <div class="timeline-icon"><i class="bi bi-briefcase"></i></div>
+            <div class="timeline-content">
+                <h4>Head of Senior Science, ACG Parnell College</h4>
+                <p><strong>2012 – 2017</strong> | Auckland</p>
+                <ul>
+                    <li>Managed a department of 11 teachers and 1 technician, overseeing budgeting, staffing, and safety as Laboratory Manager.</li>
+                    <li>Organised and led international physics trips (2013-2018) to CERN, NASA, JAXA, and universities such as MIT and ETHZ.</li>
+                    <li>Achieved exceptional results: Cambridge pass rates above 96% at all levels and 24 NZQA scholarships across senior levels (2015-2018).</li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-2" style="padding-right:20px; border-right: 1px solid #ccc;">
-            <strong>2012 - 2017<br><i>ACG Parnell College</i><br>Head of Senior Science</strong>
-        </div>
-        <div class="col-md-8" style="padding-left:20px;">
-            <ul>
-                <li>Managed a department of 11 teachers and 1 technician.</li>
-                <li>Led overseas physics trips to CERN, NASA, JAXA, and top universities (2013-2018).</li>
-                <li>Achieved over 96% pass rates and 24 scholarships across senior levels (2015-2018).</li>
-            </ul>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-2" style="padding-right:20px; border-right: 1px solid #ccc;">
-            <strong>2008 - 2011<br><i>St Peters College</i><br>Deputy Head of Science</strong>
-        </div>
-        <div class="col-md-8" style="padding-left:20px;">
-            <ul>
-                <li>Taught NCEA and CIE Physics, including Scholarship level.</li>
-                <li>Led four Year 10 students to the Junior World Conference on Hydrogen Fuel Cells (2008).</li>
-            </ul>
+        <div class="timeline-item">
+            <div class="timeline-icon"><i class="bi bi-briefcase"></i></div>
+            <div class="timeline-content">
+                <h4>Deputy Head of Science, St Peters College</h4>
+                <p><strong>2008 – 2011</strong> | Epsom, Auckland</p>
+                <ul>
+                    <li>Taught NCEA and CIE Physics at all levels, including Scholarship, with consistent student success.</li>
+                    <li>Led four Year 10 students to the Junior World Conference on Hydrogen Fuel Cells in Brisbane (2008).</li>
+                    <li>Oversaw NCEA moderation, ICT implementation, and curriculum development.</li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
 
 <!-- Testimonials Section -->
-<div class="container-fluid text-center" id="testimonials">
+<div id="testimonials" class="container-fluid text-center section">
     <h2>Testimonials</h2>
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="photo"><img src="images/students.jpg" alt="Students"></div>
-                <h4>"Tristan never doubted my ability to succeed and regularly made time outside hours to help anyone with a question."<br><span>Zelda Hollings, Former Student, 2012</span></h4>
+    <div class="testimonial-container">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="photo"><img src="images/students.jpg" class="testimonial-img" alt="Students"></div>
+                    <h4>"Tristan never doubted my ability to succeed and regularly made time outside hours to help anyone with a question."<br><span>Zelda Hollings, Former Student, 2012</span></h4>
+                </div>
+                <div class="carousel-item">
+                    <div class="photo"><img src="images/explosion.png" class="testimonial-img" alt="Explosion"></div>
+                    <h4>"We built a 3D printer, explored quantum physics, and analysed LHC data—Tristan made learning an adventure."<br><span>Zelda Hollings, Former Student, 2012</span></h4>
+                </div>
+                <div class="carousel-item">
+                    <div class="photo"><img src="images/electronics.jpg" class="testimonial-img" alt="Electronics"></div>
+                    <h4>"Tristan’s dynamic teaching methods evoked appreciation for physics even in the least motivated students."<br><span>Arnav Shetty, Former Student, 2017</span></h4>
+                </div>
             </div>
-            <!-- Add other carousel items here as per original -->
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</div>
-
-<!-- Involvement, Skills, Education, Contact sections remain largely the same with class updates -->
-<!-- Example for Skills -->
-<div id="skills" class="container-fluid text-center">
-    <h2>Skills</h2><br>
-    <div class="row slideanim">
-        <div class="col-md-4">
-            <span class="bi bi-magnet logo-small"></span>
-            <h4>Theoretical Physics</h4>
-            <p>Expertise in particle and nuclear physics, with ongoing learning via edX courses.</p>
-        </div>
-        <div class="col-md-4">
-            <span class="bi bi-code-slash logo-small"></span>
-            <h4>Programming</h4>
-            <p>Python, MATLAB, C++, JavaScript, PHP, SQL; data analysis with scientific libraries.</p>
-        </div>
-        <div class="col-md-4">
-            <span class="bi bi-tools logo-small"></span>
-            <h4>Electronics</h4>
-            <p>Arduino, Raspberry Pi for robotics, UAVs, and automation.</p>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
 </div>
 
-<!-- Footer -->
+<!-- Involvement Section -->
+<div id="involvement" class="container-fluid bg-grey section">
+    <h2 class="text-center">Extracurricular Involvement</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card shadow-sm involvement-card">
+                <img src="images/iypt.jpg" class="card-img-top involvement-img" alt="IYPT">
+                <div class="card-body">
+                    <h5><a href="http://iypt.org.nz/">International Young Physicists Tournament</a></h5>
+                    <p>Coached teams to top placings (e.g., 1st Auckland, 4th NZ, 2017) and served on the national committee.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm involvement-card">
+                <img src="images/cernmasterclass.jpg" class="card-img-top involvement-img" alt="CERN">
+                <div class="card-body">
+                    <h5><a href="http://physicsmasterclasses.org/">CERN Masterclass</a></h5>
+                    <p>Coordinated annual events at Auckland University, delivering particle physics lectures and LHC data analysis.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm involvement-card">
+                <img src="images/engsci.jpg" class="card-img-top involvement-img" alt="EngSci">
+                <div class="card-body">
+                    <h5><a href="http://www.des.auckland.ac.nz/en/for/secondarystudentsandschools/nzescompetition.html">Engineering Science Competition</a></h5>
+                    <p>Led 11 teams in 2017 (most from any school) with a runner-up finish in 2015.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Skills Section -->
+<div id="skills" class="container-fluid text-center section">
+    <h2>Skills</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card shadow-sm p-3">
+                <i class="bi bi-people logo-small"></i>
+                <h4>Educational Leadership</h4>
+                <p>Expertise in leading large-scale educational and organisational changes, driving collaborative, research-informed initiatives to enhance teaching and learning outcomes.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm p-3">
+                <i class="bi bi-code-slash logo-small"></i>
+                <h4>Programming</h4>
+                <p>Proficient in Python, MATLAB, C++, JavaScript, PHP, SQL; expert in data analysis with scientific libraries.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm p-3">
+                <i class="bi bi-tools logo-small"></i>
+                <h4>Electronics</h4>
+                <p>Skilled in Arduino and Raspberry Pi for robotics, UAVs, and home automation projects.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Education Section -->
+<div id="education" class="container-fluid bg-grey section">
+    <h2 class="text-center">Education & Qualifications</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Academic Qualifications</h4>
+            <ul>
+                <li><strong>MSc, Physics</strong> – University of Auckland (1st Class Honours, Seiichi Waki Prize)</li>
+                <li><strong>Postgraduate Diploma in Physics</strong> – University of Auckland (2009-2010, Merit, Nuclear & Particle Physics)</li>
+                <li><strong>Graduate Diploma in Secondary Teaching</strong> – University of Auckland (2007, Physics & General Science)</li>
+                <li><strong>Bachelor of Science</strong> – University of Auckland (2004-2006, Physics: Quantum Mechanics, Minor: Anthropology)</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <h4>Professional Achievements</h4>
+            <ul>
+                <li>Rutherford Trophy, NZ Institute of Physics (2024)</li>
+                <li>Faculty of Science Dean’s Award for Sustained Teaching Excellence (2022)</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact" class="container-fluid text-center section">
+    <h2>Contact</h2>
+    <p><i class="bi bi-person-badge"></i> Teacher Registration Number: 310158</p>
+    <p><i class="bi bi-geo-alt"></i> Auckland, NZ</p>
+    <p><i class="bi bi-envelope"></i> t.ohanlon@auckland.ac.nz</p>
+</div>
+
 <footer class="container-fluid text-center">
-    <a href="#myPage" title="To Top">
-        <span class="bi bi-chevron-up"></span>
-    </a>
+    <a href="#myPage" title="To Top"><i class="bi bi-chevron-up"></i></a>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Smooth scrolling
     document.querySelectorAll('.navbar a, footer a[href="#myPage"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
                 target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
-        });
-    });
-
-    // Slide animation
-    const slideElements = document.querySelectorAll('.slideanim');
-    window.addEventListener('scroll', function() {
-        slideElements.forEach(el => {
-            const rect = el.getBoundingClientRect();
-            if (rect.top < window.innerHeight - 100) {
-                el.classList.add('slide');
             }
         });
     });
